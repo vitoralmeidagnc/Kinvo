@@ -42,6 +42,7 @@ namespace Aliquota.Domain.Service
         {
             var aplicacao = new AplicacaoFinanceira(cliente, produto, DateTime.Today, null, valor);
             var resultado = await this.Create(aplicacao);
+            //asdsada
             return resultado;
         }
     }
